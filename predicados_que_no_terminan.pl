@@ -3,6 +3,8 @@
 numero(1).
 numero(N):-numero(Anterior), N is Anterior + 1, N < 10.
 
+% =======================================================================================================================
+/* sin tabling no funciona */
 :- table amistad/2.
 amistad(gaston, esteban).
 amistad(adriano, esteban).
